@@ -30,7 +30,7 @@ while game_is_on:
     #Detect collisions with food
     if snack.head.distance(food) < 15:
         food.refresh_location()
-        scoreboard.increas_score()
+        scoreboard.increase_score()
         snack.extend()
 
     #Detect collision with the wall
